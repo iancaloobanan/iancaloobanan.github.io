@@ -4,27 +4,35 @@
 <head>
     <meta charset="utf-8">
     <style>
-            nav {
-            background-color: #4C9AB8
+            @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans');
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-family: 'Libre Baskerville', serif;
         }
         
         nav {
-            color: floralwhite
+            color: white
         }
         
         a {
-            color: floralwhite
+            color: white
+                text-decoration: none;
         }
         
-        #secondsection {
-            background-color: #4C9AB8
+        nav {
+            background-color: #055B7C
         }
         
-        #secondsectiontext {
-            color: floralwhite
+        #middle-section {
+            background-color: #055B7C
         }
         
-        #secondsectionparagraph {
+        #middle-section {
             color: floralwhite
         }
         
@@ -32,8 +40,24 @@
             color: floralwhite
         }
         
-        p.secondsectiontext {
-            color: floralwhite
+        #contact-info {
+            background-color: #055B7C
+        }
+        
+        #contact-info-paragraph {
+            color: white
+        }
+        
+        section {
+            padding: 15px;
+        }
+        
+        p {
+            line-height: 1.5;
+        }
+        
+        h2 {
+            margin-bottom: 5px;
         }
         
         #bottom-row {
@@ -70,11 +94,11 @@
             <img src="https://icaloobanan.files.wordpress.com/2016/10/photo-1469897573800-adef20babc122.jpg" alt="Relaxing Rapids" height="500">
         </section>
 
-        <section id="secondsection">
+        <section id="middle-section">
             <img src="https://icaloobanan.files.wordpress.com/2016/10/photo-1415339614515-d678fe47e75d2.jpg" alt="Wilder Rapids" height="500">
             <h2>The Rush
                 </h2>
-            <p class="secondsectiontext">That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
+            <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
         </section>
 
 
@@ -85,16 +109,17 @@
             </p>
         </section>
 
-        <p>&copy; 2016 Dry Oar || Ian Caloobanan
-            <a href="https://www.facebook.com/">
-                <img src="facebook.png" alt="Facebook">
-            </a>
-            <a href="https://www.instagram.com/">
-                <img src="instagram.png"> </a>
-            <a href="https://www.youtube.com/">
-                <img src="youtube.png"> </a>
-
-        </p>
+        <footer id="contact-info">
+            <p id="contact-info-paragraph">&copy; 2016 Dry Oar || Ian Caloobanan
+                <a href="https://www.facebook.com/">
+                    <img src="facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="instagram.png" alt="instagram"> </a>
+                <a href="https://www.youtube.com/" >
+                    <img src="youtube.png" alt="youtube"> </a>
+            </p>
+        </footer>
     </div>
 </body>
 
