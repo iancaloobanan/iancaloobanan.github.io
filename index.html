@@ -48,6 +48,35 @@
             color: white
         }
         
+        #top-section, #middle-section {
+            display: flex;
+            flex-flow: row-wrap;
+            align-items: center;
+        }
+        
+        .leftcol {
+            width:48%;
+  flex: 1 0 15em;
+            margin: .5em;
+ }
+        .rightcol {
+            flex:1 0 15em;
+            margin: .5em;
+        }   
+        
+
+    
+            
+        }
+           img{
+                    max-width: 100%;
+            }
+                
+        .fullwidth {
+            width: 100%;
+        }    
+        
+  
         section {
             padding: 15px;
         }
@@ -69,13 +98,16 @@
             width: 80%;
             max-width: 960px;
             margin: 0 auto
+                
+             
+               
     </style>
     <title>Dry Oar</title>
 </head>
 
 <body>
     <div class="content">
-        <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo">
+        <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo" >
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -86,21 +118,24 @@
                 <li><a href="index.html">Contact Us</a></li>
             </ul>
         </nav>
-        <img src="https://icaloobanan.files.wordpress.com/2016/10/cropped-2.jpg" alt="Dry Oar Banner">
+        <img src="https://icaloobanan.files.wordpress.com/2016/10/cropped-2.jpg" alt="Dry Oar Banner" class="fullwidth">
 
-        <section>
+       <div class="lefcol">
+        <section id="top-section">
             <h1>We Believe</h1>
             <p id="firstp">We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
             <img src="https://icaloobanan.files.wordpress.com/2016/10/photo-1469897573800-adef20babc122.jpg" alt="Relaxing Rapids" height="500">
         </section>
-
+        </div>
+        
+        <div class="rightcol">
         <section id="middle-section">
             <img src="https://icaloobanan.files.wordpress.com/2016/10/photo-1415339614515-d678fe47e75d2.jpg" alt="Wilder Rapids" height="500">
             <h2>The Rush
                 </h2>
             <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
         </section>
-
+        </div>
 
         <section id="bottom-row">
             <h3>Come All
