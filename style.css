@@ -1,0 +1,117 @@
+ @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans');
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-family: 'Libre Baskerville', serif;
+        }
+        
+        nav {
+            color: white
+                font-size: 1.1em;
+            line-height: 3em;
+            margin-top: -5em;
+        }
+        
+        a {
+            color: white 
+                text-decoration: none;
+            
+        }
+        
+nav a:link, nav a:visited {
+ color: white; 
+                text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: antiquewhite
+}
+        nav {
+            background-color: #055B7C
+        }
+        
+#logo{
+background-color: white;
+position: relative;
+display: inline-block;
+}
+        #middle-section {
+            background-color: #055B7C
+        }
+        
+        #middle-section {
+            color: floralwhite
+        }
+        
+        h2 {
+            color: floralwhite
+        }
+        
+        #contact-info {
+            background-color: #055B7C;
+            display: flex;
+            justify-content: space-between;
+            padding: .5em;
+        }
+        
+        #contact-info-paragraph {
+            color: white
+        }
+        
+        #top-section,
+        #middle-section {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+        
+        .textcol {
+        
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+        .imgcol {
+            flex: 2 0 15em;
+            margin: .5em;
+        }
+    
+    
+    img {
+        max-width: 100%;
+    }
+    .fullwidth {
+        width: 100%;
+    }
+    section {
+        padding: 15px;
+    }
+    p {
+        line-height: 1.5;
+    }
+    h2 {
+        margin-bottom: 5px;
+    }
+    #bottom-row {
+        text-align: center;
+        width: 70% margin: 0 auto;
+    }
+    .content {
+        width: 80%;
+        max-width: 960px;
+        margin: 0 auto}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+nav li {
+    flex: 1;
+}
