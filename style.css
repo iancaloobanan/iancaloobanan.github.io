@@ -36,7 +36,9 @@ nav a:hover {
         }
         
 #logo{
-background-color: white;
+background-color: whitesmoke;
+    width: 110px;
+    border-style: solid;
 position: relative;
 display: inline-block;
 }
